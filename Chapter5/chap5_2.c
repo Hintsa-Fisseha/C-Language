@@ -15,13 +15,6 @@ int main (void){
 	int minute;
 	printf("Enter a 24-hour time: ");
 	scanf("%d:%d", &hour_24, &minute);
-	time_24_to_12(hour_24, minute);
-
-return 0;
-
-}
-
-void time_24_to_12 (int hour_24, int minute){
 
 	if (hour_24 == 0)
 		printf("Equivalent 12-hour time: %02d:%02d AM\n", 12, minute);
@@ -32,5 +25,6 @@ void time_24_to_12 (int hour_24, int minute){
 	else
 		printf("Equivalent 12-hour time: %02d:%02d PM\n", hour_24-12, minute);
 
-	return;
+return 0;
+
 }

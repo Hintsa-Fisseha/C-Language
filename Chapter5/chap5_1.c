@@ -5,18 +5,12 @@
 
 	  You may assume that the number has no more than four digits. Hint: Use if statements to test the number. For example, if the number is between 0 and 9, it has one digit. If the number is between 10 and 99, it has two digits.
 */
-void digits (int num);
 #include <stdio.h>
 
 int main (void){
-	int num_test;
+	int num;
 	printf("Enter a number: ");
-	scanf("%d", &num_test);
-	digits(num_test);
-return 0;
-}
-
-void digits (int num){
+	scanf("%d", &num);
 
 	if (num >= 0 && num <= 9)
 		printf("The number %d has 1 digit\n",num);
@@ -24,5 +18,6 @@ void digits (int num){
 		printf("The number %d has 2 digits\n",num);
 	if (num >= 100 && num <= 999)
 		printf("The number %d has 3 digits\n",num);
-	return;
+
+return 0;
 }
