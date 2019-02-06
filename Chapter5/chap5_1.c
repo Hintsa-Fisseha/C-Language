@@ -10,7 +10,7 @@ void digits (int num);
 
 int main (void){
 	int num_test;
-	printf("Enter a number:");
+	printf("Enter a number: ");
 	scanf("%d", &num_test);
 	digits(num_test);
 return 0;
