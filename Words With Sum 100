@@ -1,5 +1,0 @@
-Assigns each letter in a word a number from 1~26, A(a) being 1 and Z(z) being 26.
-
-Calculates the sum.
-
-Prints words with sum of 100.
